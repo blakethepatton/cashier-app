@@ -10,7 +10,8 @@ To deploy:
 2. `npm install`
 3. Configure .env
 4. Setup Stripe with:
-	`id=bronze
+	```
+	id=bronze
 	name=Bronze
 	price=$5
 
@@ -20,7 +21,8 @@ To deploy:
 
 	id=gold
 	name=Gold
-	price=$15`
+	price=$15
+	```
 5. `php artisan migrate`
 6. `php artisan db:seed`
 7. `php artisan serve`
