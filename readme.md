@@ -25,8 +25,7 @@ To deploy:
 	```
 5. `php artisan migrate`
 6. `php artisan db:seed`
-7. `php artisan serve` (Available at localhost:8000 - but you should know that)
-
+7. `php artisan serve` (Available at localhost:8000 - but you should know that) 
 (if you're modifying css/js)
 8. `gulp watch` or just `gulp` for a single change
 9. I think that's all... If you see anything do let me know as an issue.
