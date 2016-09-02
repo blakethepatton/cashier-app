@@ -26,6 +26,6 @@ To deploy:
 5. `php artisan db:seed`
 6. `php artisan serve` (Available at localhost:8000 - but you should know that) 
 7. If you're modifying css/js - `gulp watch` or just `gulp` for a single change
-8. I think that's all... If you see anything do let me know as an issue.
+8. I think that's all... If you see anything [do let me know](https://github.com/blakethepatton/cashier-app/issues/)
 
 
