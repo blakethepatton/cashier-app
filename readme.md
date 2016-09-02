@@ -2,7 +2,7 @@
 
 Kinda just a mess around with laravel and cashier. 
 
-Project home: (https://github.com/blakethepatton/cashier-app) and is based off of (https://school.scotch.io/build-a-monthly-subscription-app-with-laravel-cashier) but built in laravel 5.3
+[Project home](https://github.com/blakethepatton/cashier-app) and is based off of [this](https://school.scotch.io/build-a-monthly-subscription-app-with-laravel-cashier) but built in laravel 5.3
 
 To deploy:
 
