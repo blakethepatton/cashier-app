@@ -6,7 +6,7 @@ Kinda just a mess around with laravel and cashier.
 
 To deploy:
 
-1. `composer install --no-scripts && composer run-script post-root-package-install && composer run-script post-install-cmd && composer run-script post-create-project-cmd && npm-install`
+1. `composer install --no-scripts && composer run-script post-root-package-install && composer run-script post-install-cmd && composer run-script post-create-project-cmd && npm install`
 2. Configure .env 
 3. Setup Stripe with:
 ```
