@@ -6,11 +6,10 @@ Kinda just a mess around with laravel and cashier.
 
 To deploy:
 
-1. `composer install`
-2. `npm install`
-3. Configure .env
-4. Setup Stripe with:
-	```
+1. `composer install --no-scripts && composer run-script post-root-package-install && composer run-script post-install-cmd && composer run-script post-create-project-cmd && npm-install`
+2. Configure .env 
+3. Setup Stripe with:
+```
 	id=bronze
 	name=Bronze
 	price=$5
@@ -22,11 +21,11 @@ To deploy:
 	id=gold
 	name=Gold
 	price=$15
-	```
-5. `php artisan migrate`
-6. `php artisan db:seed`
-7. `php artisan serve` (Available at localhost:8000 - but you should know that) 
-8. If you're modifying css/js - `gulp watch` or just `gulp` for a single change
-9. I think that's all... If you see anything do let me know as an issue.
+```
+4. `php artisan migrate`
+5. `php artisan db:seed`
+6. `php artisan serve` (Available at localhost:8000 - but you should know that) 
+7. If you're modifying css/js - `gulp watch` or just `gulp` for a single change
+8. I think that's all... If you see anything do let me know as an issue.
 
 
